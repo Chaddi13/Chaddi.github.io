@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: #080208;
+    background: linear-gradient(45deg, orange, yellow, lime);
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    color: white;
+    background-image: url(img/Fantastic-scenery-mountains-space-planet_1920x1080.jpg);
+}
+
+.center {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 0 12px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.album-text {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container-text {
+    margin-left: 125px;
+    align-items: center;
+    align-self: center;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.container-footer {
+    align-self: stretch;
+}
+
+.img-round {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.nav-color {
+    color: white;
+}
+
+.skills{
+    font-size: 25px;
+}
+
+.skill-python{
+    padding-left: 30px;
+    background-image: url(img/python-seeklogo.com.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.skill-html{
+    padding-left: 30px;
+    background-image: url(img/icon-html.svg);
+    background-repeat: no-repeat;
+}
+
+.skill-css{
+    padding-left: 30px;
+    background-image: url(img/icon-css.svg);
+    background-repeat: no-repeat;
+}
+
+.level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #080208;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+.level div {
+    margin: 1px;
+    height: 12px;
+    background-color: lightgreen;
+    border-radius: 6px;
+}
+
+.page-footer {
+    padding: 2px 0;
+    background-color: #260c26;
+}
+
+.page-footer a {
+    margin-left: 56px;
+    margin-right: 10px;
+    color: #fea18d;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.page-footer p {
+    color: #fea18d;
+    margin-right: 20px;
+}
+
+.header-email {
+    padding-left: 30px;
+    background-image: url(img/icon-email.svg);
+}
+
+.header-phone {
+    padding-left: 25px;
+    background-image: url(img/icon-phone.svg);
+}
