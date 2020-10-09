@@ -52,10 +52,6 @@ body {
     border: 5px solid white;
 }
 
-.nav-color {
-    color: white;
-}
-
 .skills{
     font-size: 25px;
 }
@@ -105,7 +101,6 @@ body {
     margin-left: 56px;
     margin-right: 10px;
     color: #fea18d;
-    text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
 }
