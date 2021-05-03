@@ -1,0 +1,38 @@
+body{
+	background: rgb(208,0,0);
+	background: linear-gradient(90deg, rgba(208,0,0,1) 0%, rgba(255,186,8,1) 100%);
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	text-align: center;
+}
+
+#top{
+	margin-left: 20px;
+	margin-top: 20px;
+    width: 40.5%;
+    margin-right: 2%;
+}
+
+p{
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.63em;
+	color: white;
+	margin-top: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	margin-bottom: 0px;
+}
+
+#slider{
+	/*margin-left: 400px;*/
+	width: 500px;
+	height: 400px;
+}
