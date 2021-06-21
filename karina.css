@@ -1,0 +1,9 @@
+body{
+	background: rgb(255,200,221);
+	background: linear-gradient(90deg, rgba(255,200,221,1) 0%, rgba(255,175,204,1) 100%);
+}
+
+h1{
+	text-align: center;
+	color:  #fff;
+}
