@@ -1,6 +1,7 @@
 body{
 	background-color: #fff;
 	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 h1{
@@ -15,7 +16,7 @@ h3{
 .vert{
 	margin: 25px 10px 25px 50px;
 	background-color: #ddbea9;
-	width: 40vh;
+	width: 20vw;
 	height: 90vh;
 	display: flex;
 	justify-content: space-between;
@@ -96,7 +97,7 @@ h2{
 	display: flex;
 	justify-content: flex-start;
 	padding: 5px 5px 5px 5px;
-	padding-right: 100px;
+	min-width: 460px;
 }
 
 #title{
@@ -105,14 +106,16 @@ h2{
 }
 
 table{
-border-collapse: collapse;
-margin-bottom: 25px;
-}
-
-td{
 	border-width: 2px;
 	border-style: solid;
 	border-color: transparent transparent #000 #000;
+	margin-bottom: 25px;
+	min-width: 470px;
+	width: 100%;
+	/*max-width: 1400px;*/
+}
+
+td{
 	min-width: 100px;
 	text-align: center;
 	padding: 15px 0 15px 0;
@@ -120,8 +123,14 @@ td{
 
 .tab__text{
 	text-align: left;
+	/*min-width: 350px;
+	width: 70vw;
+	max-width: 1140px;*/
 }
 
-.not_last{
-	border-color: transparent transparent transparent #000;
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
