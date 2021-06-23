@@ -17,7 +17,7 @@ h3{
 	margin: 25px 10px 25px 50px;
 	background-color: #ddbea9;
 	width: 20vw;
-	height: 90%;
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -126,4 +126,9 @@ a:hover {
 
 .left{
 	width: 110px;
+}
+
+.anchor__title{
+	text-decoration: none;
+	color: #000;
 }
